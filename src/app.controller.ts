@@ -19,4 +19,9 @@ export class AppController {
   getStatus(): string {
     return this.appService.getStatus();
   }
+
+  @Get("my-states")
+  getStates() {
+    return this.appService.getStates();
+  }
 }
