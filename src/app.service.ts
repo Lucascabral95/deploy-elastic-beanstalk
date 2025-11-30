@@ -9,4 +9,8 @@ export class AppService {
   health(): string {
     return 'Health check is ok. StatusCode: 200';
   }
+
+  getStatus(): string {
+    return "Esta endpoint fue recientemente creado por lo tanto, esta funcional!!! Dominaste CI/CD con Github Actions + Elastic Beanstalk de AWS"
+  }
 }
